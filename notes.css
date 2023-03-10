@@ -1,0 +1,272 @@
+SELECTEURS
+* = Tous les éléments
+div = Toutes les balises div
+div, span = Toutes les balises span
+div span = Tous les span dans les div
+div > span = Tous les span enfants des div
+#bloc = Identifiant unique (id=’’bloc’’)
+.bloc = Classe (class=’’bloc’’)
+ul#bloc = Une liste (ul) avec un id bloc
+span.bloc = Span ayant la classe bloc
+#bloc * = Tous les éléments dans #bloc
+a:link = Lien
+a:active = Lien actif
+a:visited = Lien visité
+a:hover = Lien survolé
+
+TEXTE 
+font-family = Famille de typos (arial, times)
+font-size = Taille de la typo (px/em)
+font-weight = Graisse (bold, normal)
+font-style = Orientation (italic, normal)
+color = Couleur (#F00)
+text-transform = Transformation (uppercase)
+text-decoration = Décoration (underline)
+text-align = Alignement (left, right, center)
+line-height = Hauteur de ligne (px/em)
+letter-spacing = Espacement entre les lettres
+text-indent = Décalage de la première ligne
+
+EXPACEMENT & BORDURES
+margin = Marge extérieure (px/em)
+margin-top = Marge en haut
+margin-right = Marge à droite
+margin-bottom = Marge en bas
+margin-left = Marge à gauche
+padding = Espace intérieur
+border = bordure (1px solid #F00)
+
+ARRIERE-PLAN
+background = Arrière-plan
+background-color = Couleur de fond
+background-image = Image de fond
+background-repeat = Répétition du fond
+background-attachment = Attachement du fond
+background-position = Position du fond
+
+LISTES
+list-style-type = Type de puce
+list-style-position = Position de la puce
+list-style-image = Image de la puce
+
+POSITIONNEMENT ET TAILLES
+width = Largeur (px/em)
+min-width = Largeur minimale
+max-width = Largeur maximale
+height = Hauteur (px/em)
+min-height = Hauteur minimale
+max-height = Hauteur maximale
+position = Position (absolute, relative)
+top = Référence au haut
+right = Référence à la droite
+bottom = Réference au bas
+left = Référence à la gauche
+float = Element flottant (left/right)
+display = Mode d’affichage (block)
+z-index = Profondeur/niveau
+overflow = Dépassement hors conteneur
+
+POSITIONNENT ET TAILLES
+width = Largeur (px/em)
+height = Hauteur (px/em)
+position = Position (absolute, relative)
+top = Référence au haut
+right = Référence à la droite
+bottom = Réference au bas
+left = Référence à la gauche
+float = Element flottant (left/right)
+display = Mode d’affichage (block)
+z-index = Profondeur/niveau
+overflow = Dépassement hors conteneur
+
+NEW CSS 3
+font-face = Chargement d’une typo
+border-radius = Coins arrondis
+box-shadow = Ombre d’un bloc
+gradient = Dégradé
+opacity = Transparence
+text-shadow = Ombre sur un texte
+transform = Transformation
+transition = Transition
+
+MEDIA QUERIES
+Ex : @media screen and (max-width: 640px) { ... }
+
+1/ MEDIAS
+screen = Écrans
+handheld = Mobiles / Petits périphériques
+print = Impression
+braille = Plages braille
+embossed = Imprimantes braille
+projection = Projecteurs (ou slides)
+tty = Terminal/police à pas fixe
+tv = Téléviseur
+all = Tous les précédents
+
+2/ OPERATORS
+and = et 
+only = seulement 
+not = non
+
+3/ CRITERIAS
+color = Support de la couleur
+color-index = Couleurs indexées
+device-aspect-ratio = Ratio du périphérique (16/9)
+aspect-ratio = Ratio de la zone d'affichage
+device-height = Hauteur du périphérique
+device-width = Largeur du périphérique
+grid = Périphérique bitmap (ex : lcd)
+height = Hauteur de la zone d'affichage
+monochrome = Monochrome / Noir et blanc
+orientation = Orientation (portait/landscape)
+resolution = Résolution du périphérique
+width = Largeur de la zone d'affichage
+
+PSEUDO CLASSES
+::after = Insertion de contenu après
+::before = Insertion de contenu avant
+::first-letter = Selection de la première lettre
+::first-line = Sélection de la première ligne
+::selection = Sélection
+:active = Actif
+:checked = Coché/checké
+:disable = Désactivé
+:empty = Vide
+:enable = Activé
+:first-child = Premier enfant
+:first-of-type = Premier du type
+:focus = Curseur dedans
+:hover = Au dessus
+:in-range = Dans une plage de valeurs
+:invalid = Invalide
+:lang(language) = Dans la langue (fr/en/it/...)
+:last-child = Dernier enfant
+:last-of-type = Dernier du type
+:link = Lien
+:not(selector) = N’est pas un sélecteur
+:nth-child(n) = Chaque (n) enfant
+:nth-last-child(n) = Dernier de chaque (n) enfant
+:nth-last-of-type(n) = Dernier de chaque (n) du type
+:nth-of-type(n) = Chaque (n) du type
+:only-of-type = Seulement du type
+:only-child = Seulement les enfants
+:optional = Optionnel
+:out-of-range = En dehors des valeurs
+:read-only = Lecture seule
+:read-write = Lecture et écriture
+:required = Requis
+:root = Racine du document
+:target = Cible
+:valid = Valide
+:visited = Visité
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
